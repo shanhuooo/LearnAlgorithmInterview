@@ -1,6 +1,7 @@
 #!/sur/bin/python3
 #1.1 如何实现链表的逆序
 #方法1 就地逆序
+#2019.08.23
 
 class LNode:
 	def __init__(self,x):
