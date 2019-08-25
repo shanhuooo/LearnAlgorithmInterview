@@ -39,13 +39,13 @@ if __name__ == '__main__':
 		cur=tmp
 		i+=1
 	print("逆序前:",end="")
-	cur=head
+	cur=head.next
 	while cur!=None:
 		print(cur.data,end="")
 		cur=cur.next
 	Reverse(head)
 	print("\n逆序后:",end="")
-	cur=head
+	cur=head.next
 	while cur!=None:
 		if cur.next!=None:
 			print(cur.data,end="")
