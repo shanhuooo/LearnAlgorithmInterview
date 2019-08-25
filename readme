@@ -1,6 +1,9 @@
 面试笔试真题解析
+
 第一章 链表 文件夹linkedList
 1.1 实现链表的逆序
 linkedList1_1_1.py 就地逆序
 linkedList1_1_2.py 递归法
 linkedList1_1_3.py 插入法
+1.2 从无序链表中移除重复项
+linkedList1_2_1.py 顺序删除
