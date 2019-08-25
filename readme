@@ -8,3 +8,4 @@ linkedList1_1_3.py 插入法
 1.2 从无序链表中移除重复项
 linkedList1_2_1.py 顺序删除
 linkedList1_2_zsh1.py 第一次尝试用自己的方法解题.
+linkedList1_2_2.py 递归法

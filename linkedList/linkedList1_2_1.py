@@ -56,7 +56,7 @@ def makeList():
 方法功能: 输出链表
 输入参数: a:提示字符串;head:链表头结点
 """
-def printLink(a, head):
+def printList(a, head):
 	print(a,end=":")
 	cur=head.next
 	while cur!=None:
@@ -68,6 +68,6 @@ def printLink(a, head):
 
 if __name__=="__main__":
 	head=makeList()
-	printLink("删除重复项前",head)
+	printList("删除重复项前",head)
 	removeDup(head)
-	printLink("删除重复项后",head)
+	printList("删除重复项后",head)
