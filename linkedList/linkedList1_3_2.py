@@ -26,11 +26,9 @@ def add(h1,h2):
 	p2=h2.next #用来遍历h2
 	tmp=None   #用来指向新创建的存储相加和的结点
 	resultHead=LNode("head") #相加后链表头结点
-	resultHead.next=None
 	p=resultHead #用来指向链表resultHead最后一个结点
 	while p1 is not None and p2 is not None:
 		tmp=LNode("head")
-		tmp.next=None
 		sums=p1.data+p2.data+c
 		tmp.data=sums%10 #两结点相加和
 		c=sums//10 #进位
@@ -42,7 +40,6 @@ def add(h1,h2):
 	if p1 is None:
 		while p2 is not None:
 			tmp=LNode("head")
-			tmp.next=None
 			sums=p2.data+c
 			tmp.data=sums%10
 			c=sums//10
@@ -53,7 +50,6 @@ def add(h1,h2):
 	if p2 is None:
 		while p1 is not None:
 			tmp=LNode("head")
-			tmp.next=None
 			sums=p1.data+c
 			tmp.data=sums%10
 			c=sums//10
@@ -63,7 +59,6 @@ def add(h1,h2):
 	# 如果计算完成后还有进位,则增加新的结点
 	if c==1:
 		tmp=LNode()
-		tmp.next=None
 		tmp.data=1
 		p.next=tmp
 	return resultHead
