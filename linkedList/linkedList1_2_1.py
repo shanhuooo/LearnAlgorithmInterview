@@ -53,7 +53,7 @@ def makeList():
 	return head
 
 """
-方法功能: 输出链表
+方法功能: 输出带头结点的链表
 输入参数: a:提示字符串;head:链表头结点
 """
 def printList(a, head):
