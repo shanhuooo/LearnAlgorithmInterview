@@ -24,19 +24,17 @@ def headNum(head):
 		cur=cur.next
 		i+=1
 	return num
-#求数字所代表的不带头结点的单链表(使用递归)
-def numToNoHead(num):
+#求数字所代表的链表(使用递归)
+def numToHead(num):
 	cur=LinkedList("None")
+	head=LinkedList("head")
 	if (num//10)==0:
 		cur.data=num
-		return cur
+		head.next=cur
+		return head
 	cur.data=num%10
-	cur.next=numToNoHead(num//10)
-	return cur
-#给单链表添加头结点
-def numToHead(num):
-	head=LinkedList("HEAD")
-	head.next=numToNoHead(num)
+	cur.next=numToHead(num//10).next
+	head.next=cur
 	return head
 #求和所对应的链表
 def addList(head1,head2):
@@ -48,5 +46,4 @@ if __name__ == '__main__':
 	head1,head2=makeLists()
 	printList("head1",head1)
 	printList("head2",head2)
-
 	printList("相加后",addList(head1,head2))
