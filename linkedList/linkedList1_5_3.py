@@ -6,7 +6,7 @@ from linkedList1_5_2 import LinkedList,makeList,\
 	findLastK,printList
 
 """
-方法功能: 将单链表向右旋转k个位置
+方法功能: 将单链表向右旋转k个位置 (目前k只能取在链表长度范围内)
 输入参数: head:链表头结点; k:旋转位置
 返回值:   newHead:旋转后的链表头结点
 """
