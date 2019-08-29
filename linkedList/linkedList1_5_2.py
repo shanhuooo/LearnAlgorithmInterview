@@ -43,7 +43,7 @@ def printList(head,type=0):
 """
 def findLastK(head,k):
 	if head is None or head.next is None:
-		return LinkedList("None")
+		return LinkedList("None"),LinkedList("None")
 	slow=head
 	fast=head
 	i=0
@@ -52,16 +52,20 @@ def findLastK(head,k):
 		i+=1
 		if fast.next==None:
 			if i==k:
-				return head.next
-			return LinkedList("None")
+				return head.next,fast
+			return LinkedList("None"),fast
 	while fast is not None:
 		slow=slow.next
+		last=fast
 		fast=fast.next
-	return slow
+	return slow,last
 
 if __name__ == '__main__':
 	head=makeList()
 	print("链表",end=":")
 	printList(head)
-	k=3
-	print("链表倒数第%s个元素为:%s" % (k,findLastK(head,k).data))
+	k=1
+	while k<9:
+		kNode,last=findLastK(head,k)
+		print("链表倒数第%s个元素为:%s" % (k,kNode.data))
+		k+=1
