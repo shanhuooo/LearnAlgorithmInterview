@@ -18,3 +18,5 @@ linkedList1_4_1.py
 1.5 找出单链表中的第k个元素
 linkedList1_5_2.py 快慢指针法
 linkedList1_5_3.py 将链表向右旋转k个位置
+1.6 检测一个较大的单链表是否有环
+linkedList1_6_3.py 引申: 如果链表有环,找出环的入口点
