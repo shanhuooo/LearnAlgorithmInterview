@@ -3,7 +3,7 @@
 #### 代码执行在python3.7.3
 #### 尝试用Ｍarkdown记录readme
 
-## 第一章 链表 文件夹linkedList
+### 第一章 链表 文件夹linkedList
 
 > 1.1 实现链表的逆序
 > > linkedList1_1_1.py *就地逆序*
@@ -28,3 +28,6 @@
 
 > 1.6 检测一个较大的单链表是否有环
 > > linkedList1_6_3.py *引申: 如果链表有环,找出环的入口点*
+
+> 1.7 把链表相邻元素翻转
+> > linkedList1_7_2.py *就地逆序*
