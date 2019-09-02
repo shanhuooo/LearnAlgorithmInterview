@@ -27,7 +27,7 @@ def printList(head,type=0):
 	if type==0:
 		cur=head.next
 	#type==1, 不带头结点
-	elif type==1:
+	elif type!=0:
 		cur=head
 	while cur is not None:
 		if cur.next is not None:
