@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#1.4 把链表以K个结点为一组进行翻转
+#1.9 把链表以K个结点为一组进行翻转
 #2019.09.02
 
 from linkedList1_5_2 import LinkedList,printList
