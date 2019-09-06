@@ -50,4 +50,5 @@
 ### 第二章 栈,队列与哈希 文件夹stackQueueHash
 
 > 2.1 实现栈
-> > linkedList2_1_1.py *数组实现*
+> > stackQueueHash2_1_1.py *数组实现*
+> > stackQueueHash2_1_2.py *链表实现*
