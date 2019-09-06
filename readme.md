@@ -46,3 +46,8 @@
 
 > 1.12 展开链接链表
 > > linkedList1_12_1.py **未完全掌握**
+
+### 第二章 栈,队列与哈希 文件夹stackQueueHash
+
+> 2.1 实现栈
+> > linkedList2_1_1.py *数组实现*
