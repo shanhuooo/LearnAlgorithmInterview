@@ -52,3 +52,6 @@
 > 2.1 实现栈
 > > stackQueueHash2_1_1.py *数组实现*
 > > stackQueueHash2_1_2.py *链表实现*
+
+> 2.2 实现队列
+> > stackQueueHash2_2_1.py *数组实现*
