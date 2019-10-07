@@ -80,3 +80,7 @@
 > > stackQueueHash2_2_1.py *数组实现*
 
 > > stackQueueHash2_2_2.py *链表实现*
+
+> 2.3 翻转栈的所有元素
+
+> > stackQueueHash2_3_1.py
